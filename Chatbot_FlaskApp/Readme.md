@@ -1,4 +1,4 @@
-# Marketing Guru Assistant for Churn Prediction API
+# Marketing Guru Assistant for Churn Prediction API 📊
 
 This project provides an API for predicting customer churn rates using a logistic regression model and a conversational AI interface. The AI is powered by the llama3 chat model, integrated through the LangChain framework. The API interacts with users in a conversational manner to collect the necessary information and provide churn predictions.
 
@@ -42,10 +42,10 @@ This project demonstrates the deployment of a logistic regression model as an AP
 Once the Flask app is running, you can interact with the API using tools like Postman.
 
 ## API Endpoints
-### Postman test
+### Chat with AI
 This endpoint takes a JSON payload with a user question and returns an AI-generated response.
 
-- **URL:** `http://127.0.0.1:5000`
+- **URL:** `http://127.0.0.1:5000/`
 - **Method:** `POST`
 - **Request Body:**
   ```json
@@ -60,7 +60,17 @@ This endpoint takes a JSON payload with a user question and returns an AI-genera
   }
   ```
 
+### Clear Chat History
+This endpoint clears the chat history for the current user session.
 
+- **URL:** `http://127.0.0.1:5000/clear`
+- **Method:** `POST`
+- **Response:**
+  ```json
+  {
+      "message": "Chat history cleared"
+  }
+  ```
 
 ## Postman Screenshots
 Below are the screenshots from Postman demonstrating the API requests and responses.
