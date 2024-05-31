@@ -1,7 +1,7 @@
 # Marketing Guru Chatbot with Llama3, LangChain, and Logistic Regression
 
-This repository contains the Marketing Guru Chatbot, AI-powered marketing assistant designed designed to assist Marketing team members to predict customer churn rates. The application leverages a conversational interface powered by the llama3 chat model via the LangChain framework
-and use Logistic regression model ot predict the churn rate
+This repository contains the Marketing Guru Chatbot, an AI-powered marketing assistant designed to assist Marketing team members in predicting customer churn rates. The application leverages a conversational interface powered by the llama3 chat model via the LangChain framework
+and use Logistic regression model to predict the churn rate
 
 
 ## Table of Contents
